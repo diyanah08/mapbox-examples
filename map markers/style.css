@@ -3,3 +3,13 @@
     width: 100%;
     position: absolute;
 }
+
+/*to style popup*/
+
+.mapboxgl-popup { 
+    width: 200px;
+}
+
+.mapboxgl-popup-content {
+    background-color: beige;
+}

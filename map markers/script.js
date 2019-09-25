@@ -11,6 +11,17 @@ let map = new mapboxgl.Map(mapOptions);
 
 // Create a Marker
 
-let marker = new mapboxgl.Marker()
-    .setLngLat([103.8198,1.3521]) //setting lng and lat of the marker with the ARRAY swuare brakets
-    .addTo(map); // add to the map object created above
+let singaporeMarker = new mapboxgl.Marker()
+    .setLngLat([103.8198, 1.3521]) //setting lng and lat of the marker with the ARRAY swuare brakets
+    // creating new pop up
+    .setPopup(new mapboxgl.Popup({
+        offset: 25 // how far it is from the popup
+    }).setHTML('<h3>Singapore</h3><p>Sunny island set in the sea</p>')) // what will be in the popup
+    .addTo(map) // add to the map object created above
+    
+let changiAirportMarker = new mapboxgl.Marker()
+    .setLngLat([103.9915, 1.3644])
+    .setPopup(new mapboxgl.Popup({
+        offset: 15
+    }).setHTML('<h3>Singapore Changi Airport</h3><p>Best Airport</p>'))
+    .addTo(map)
