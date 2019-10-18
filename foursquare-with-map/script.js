@@ -2,8 +2,8 @@
 /*global $*/
 mapboxgl.accessToken = "pk.eyJ1IjoiZGl5YW5haDA4IiwiYSI6ImNrMHlwam9pNzBoc2QzYnA4ZXgydXFvY2cifQ.5Ou3JPEXHCQOJ-0H4Blltw";
 
-let map
-let all_markers = []
+let map;
+let all_markers = [];
 
 function setupMap(){
     map = new mapboxgl({
@@ -14,7 +14,9 @@ function setupMap(){
 });
 }
 
-$(function(){
-    setupMap();
+// $(function(){
+//     setupMap();
     
-});
+// });
+
+setupMap()

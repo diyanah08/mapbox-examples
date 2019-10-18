@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- dependencies for d3, dc and crossfilter -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.min.css" type="text/css" />
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- end dependencies -->
+
+    <title>Indonesia Forest Fires</title>
+</head>
+
+<body>
+    <div>
+    <div id='stacked-chart'>
+
+    </div>
+
+    <div id='stacked-chart-2'>
+
+    </div>
+
+    <div id='bar-chart'></div>
+    <div id='line-graph'></div>
+    </div>
+    <div id="forest">
+        <div id="fire" class="picture" />
+        <div id="fire" class="picture" />
+        <div id="fire" class="picture" />
+        <div id="fire" class="picture" />
+        <div id="fire" class="picture" />
+        <div id="fire" class="picture" />
+        <div id="fire" class="picture" />
+        <div id="nofire" class="picture" />
+        <div id="nofire" class="picture" />
+        <div id="nofire" class="picture" />
+    </div>
+
+    <script src='script.js'></script>
+</body>
+
+</html>

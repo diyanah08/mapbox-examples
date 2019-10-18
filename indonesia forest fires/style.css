@@ -1,0 +1,28 @@
+#main {
+    width: 650px;
+    height: 650px;
+}
+
+#forest
+{
+    height: 500px;
+    width: 500px;
+  text-align: center;
+  justify-content: center;
+  background-image: url(images/indoforest.jpg);
+}
+
+#fire {
+  text-align: center;
+  justify-content: center;
+  background-image: url(images/fire.png);
+}
+
+.picture {
+  margin: 40px 10px;
+  height: 170px;
+  width: 170px;
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+}
